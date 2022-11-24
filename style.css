@@ -1,0 +1,80 @@
+body {
+  width: 900px;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  margin-left: 50%;
+  margin-top: 150px;
+  width: 600px;
+  height: 450px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  border-radius: 2%;
+  box-shadow: -5px 10px 10px 10px#b2b1b1;
+}
+
+img {
+  border-bottom-left-radius: 2%;
+  border-top-left-radius: 2%;
+}
+
+.product {
+  margin-top: 40px;
+}
+
+p {
+  font-family: Montserrat;
+  color: darkgrey;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: Fraunces;
+}
+
+.perfume {
+  margin-top: -10px;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+.price {
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+  font-family: Fraunces;
+}
+
+.before-sale {
+  text-decoration-line: line-through;
+  margin-left: 130px;
+  margin-top: -57px;
+}
+
+button {
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  border: 0px;
+  width: 220px;
+  height: 45px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shopping {
+  margin-right: 10px;
+  margin-bottom: -3px;
+}
+
+button:hover {
+  background-color: hsl(158, 91%, 18%);
+}
+
+button:active {
+  color: hsl(158, 36%, 37%);
+  background-color: white;
+  border: 2px solid green;
+}
